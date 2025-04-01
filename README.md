@@ -38,4 +38,4 @@ I'm Ryan, a **Senior Machine Learning Engineer** with over **5 years of experien
 ---
 
 ### 👁️‍🗨️ Profile Views Counter
-[![Ryanakml profile views](https://u8views.com/api/v1/github/profiles/YOUR_GITHUB_ID/views/day-week-month-total-count.svg)](https://u8views.com/github/Ryanakml)
+[![Ryanakml profile views](https://u8views.com/api/v1/github/profiles/117444976/views/day-week-month-total-count.svg)](https://u8views.com/github/Ryanakml)
