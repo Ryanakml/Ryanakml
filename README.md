@@ -14,9 +14,6 @@ I'm Ryan, a **Senior Machine Learning Engineer** with over **5 years of experien
 ### 🚀 Top Technologies
 
 [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)  
-[![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#)  
-[![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#)   
-[![GraphQL Badge](https://img.shields.io/badge/-GraphQL-e535ab?style=for-the-badge&labelColor=black&logo=graphql&logoColor=e535ab)](#)  
 [![Solidity Badge](https://img.shields.io/badge/-Solidity-363636?style=for-the-badge&labelColor=black&logo=solidity&logoColor=white)](#)  
 [![Jupyter Badge](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&labelColor=black&logo=jupyter&logoColor=F37626)](#)  
 
