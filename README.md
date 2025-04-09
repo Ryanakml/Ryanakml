@@ -19,7 +19,7 @@ I'm Ryan, a **Senior Machine Learning Engineer** with over **5 years of experien
 
 
 ### 💼 Business & Projects
-📄 **[My Resume/CV](https://drive.google.com/file/d/12z5Ig5x4RNoIUpQ-M7AMl1NL8FTIvlaU/view?usp=sharing)**  
+📄 **[Resume/CV](https://drive.google.com/file/d/12z5Ig5x4RNoIUpQ-M7AMl1NL8FTIvlaU/view?usp=sharing)**  
 ✉️ **Email:** brian.sbg69@gmail.com  
 
 ---
