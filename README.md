@@ -19,7 +19,7 @@ I'm a developer focused on AI and Software Development. Currently exploring AI a
 ### 📊 GitHub Stats
 <p align="center">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ryanakml&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&theme=tokyonight&hide=html,css,jupyter%20notebook" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&theme=tokyonight&hide=html,css,jupyter%20notebook&langs_count=10" />
 </p>
 
 ---
