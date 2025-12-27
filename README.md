@@ -1,34 +1,25 @@
-### Hi, I'm Ryan 👋
+# Hi there, I'm Ryan Akmal! 👋
 
-I'm Ryan, a **Senior Machine Learning Engineer** with over **5 years of experience**. Skilled in both **Front-end** and **Back-end** technologies, I spend most of my time building outstanding projects and learning cutting-edge advancements in the field of AI and software development.
-
----
-
-### 📬 Reach Me Out!
-[![LinkedIn Badge](https://img.shields.io/badge/-Ryan_Akmal-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-akmal-943a2a1a6/)  
-[![Instagram Badge](https://img.shields.io/badge/-@ryanakmll-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white)](https://www.instagram.com/ryanakmll/)  
-[![Gmail Badge](https://img.shields.io/badge/-brian.sbg69@gmail.com-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:brian.sbg69@gmail.com)  
+### 🚀 About Me
+I'm a developer focused on AI and Software Development. Currently exploring Web3 and Data Science.
 
 ---
 
-### 🚀 Top Technologies
-
-[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)  
-[![Solidity Badge](https://img.shields.io/badge/-Solidity-363636?style=for-the-badge&labelColor=black&logo=solidity&logoColor=white)](#)  
-[![Jupyter Badge](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&labelColor=black&logo=jupyter&logoColor=F37626)](#)  
-
-
-### 💼 Business & Projects
-📄 **[Resume/CV](https://drive.google.com/file/d/12z5Ig5x4RNoIUpQ-M7AMl1NL8FTIvlaU/view?usp=sharing)**  
-✉️ **Email:** brian.sbg69@gmail.com  
+### 🛠 Top Technologies
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
 
 ---
 
 ### 📊 GitHub Stats
-<div align="center">
-  <img alt="Ryan's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Ryanakml&show_icons=true&theme=transparent"/>
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&&langs_count=8"/>
-</div>
+<p align="center">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ryanakml&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&theme=tokyonight&hide=html,css" />
+</p>
 
 ---
 
