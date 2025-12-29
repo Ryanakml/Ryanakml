@@ -17,10 +17,3 @@ I'm a developer focused on AI and Software Development. Currently exploring AI a
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&hide=Jupyter%20Notebook&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&v=130" />
 </p>
 
-### 👁 Profile Views Counter
-![Views](https://komarev.com/ghpvc/?username=Ryanakml&color=f1e05a&style=flat-square)
-<br/>
-
-### 📫 Let's Connect!
-- 💼 LinkedIn: [Your Profile](google.com)
-- 📧 Email: no@no.com
