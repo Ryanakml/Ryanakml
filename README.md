@@ -17,16 +17,9 @@ I'm a developer focused on AI and Software Development. Currently exploring AI a
 ---
 
 ### 📊 GitHub Stats
-<table>
-  <tr>
-    <td valign="top">
-      <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ryanakml&show_icons=true&include_all_commits=true&count_private=true&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&rank_icon=github" />
-    </td>
-    <td valign="top">
-      <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a" />
-    </td>
-  </tr>
-</table>
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&hide=Python,Jupyter%20Notebook&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&v=126" />
+
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ryanakml&show_icons=true&include_all_commits=true&count_private=true&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&rank_icon=github&v=125" />
 
 ---
 
