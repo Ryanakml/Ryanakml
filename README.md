@@ -12,16 +12,14 @@ I'm a developer focused on AI and Software Development. Currently exploring AI a
 
 ### 📊 GitHub Stats
 
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ryanakml&show_icons=true&include_all_commits=true&count_private=true&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&rank_icon=github&v=128" />
+<p align="left">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ryanakml&show_icons=true&include_all_commits=true&count_private=true&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&rank_icon=github&v=130" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&hide=Jupyter%20Notebook&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&v=130" />
+</p>
 
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&hide=Python,Jupyter%20Notebook&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&v=128" />
-
----
-
-### 📈 Profile Activity
-![Ryan's GitHub activity chart](https://github-readme-activity-graph.vercel.app/graph?username=Ryanakml&theme=tokyonight&bg_color=0d1117&color=f1e05a&line=f1e05a&point=ffffff&hide_border=true)
-
----
+### 👁 Profile Views Counter
+![Views](https://komarev.com/ghpvc/?username=Ryanakml&color=f1e05a&style=flat-square)
+<br/>
 
 ### 📫 Let's Connect!
 - 💼 LinkedIn: [Your Profile](google.com)
