@@ -37,7 +37,7 @@ I build end-to-end AI systems that are deployed, scalable, and revenue-ready.
 ---
 
 ### 📈 GitHub Stats
-<p align="left"><img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ryanakml&show_icons=true&include_all_commits=true&count_private=true&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&rank_icon=github&v=145" />&nbsp;<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&hide=jupyter%20notebook&langs_count=10&exclude_repo=Adaptive-Sobel-VS-Sobel,Reinforcement-Learning-Concept-and-Implementation&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&v=145" /></p>
+<!-- <p align="left"><img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ryanakml&show_icons=true&include_all_commits=true&count_private=true&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&rank_icon=github&v=145" />&nbsp;<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ryanakml&layout=compact&hide=jupyter%20notebook&langs_count=10&exclude_repo=Adaptive-Sobel-VS-Sobel,Reinforcement-Learning-Concept-and-Implementation&title_color=f1e05a&text_color=ffffff&icon_color=f1e05a&bg_color=0d1117&border_color=f1e05a&v=145" /></p> -->
 
 ---
 
