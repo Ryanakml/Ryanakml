@@ -16,23 +16,29 @@ I build end-to-end applications with a strict focus on system reliability. Wheth
 ### 🚀 Production-Ready Systems
 I build end-to-end AI systems that are deployed, scalable, and revenue-ready.
 
+* **[WA Chat](https://chat-fuse-dashboard.vercel.app/)** | *Production-grade WhatsApp support platform for AI-assisted conversations*
+  * **Built:** Webhook ingestion, async job processing, AI routing, escalation workflows, and observability.
+  * **Stack:** Next.js, Express, BullMQ, Redis, Supabase, LangChain, OpenAI, Gemini, OpenTelemetry, Grafana
 * **[ClipperAI](https://clipperai.tech/)** | *Automated clip generation engine*
-  * **Stack:** Gemini 2.5 Flash, FFmpeg, Modal GPU Inference, Inngest (Workflows), Next.js, Prisma
+  * **Built:** Multi-stage video processing, GPU-accelerated inference, and long-running background workflows.
+  * **Stack:** Gemini 1.5 Flash, FFmpeg, Modal GPU, Inngest, Next.js, Prisma
 * **[Neutrons AI](https://convs-web.vercel.app/conversations)** | *Custom node-based automation*
+  * **Built:** Visual workflow builder, real-time node execution, and multi-LLM routing logic.
   * **Stack:** Next.js, Inngest, Gemini & Groq APIs, Convex
 * **[Chattiphy](https://chattiphy.nextstackhq.app/)** | *Production support system with sub-second latency*
+  * **Built:** Real-time AI voice/text interaction, low-latency state management, and multi-channel support.
   * **Stack:** Groq LLM, Convex, Vapi (Voice), Next.js
 * **[Nylo](https://www.nylo.me/)** | *Automated B2B job change tracking & alert engine*
-  * **Stack:** Next.js, Convex, Clerk, Python, OpenAi APIs, Proxycurl
-    
+  * **Built:** Large-scale LinkedIn data scraping, automated lead enrichment, and targeted alert delivery.
+  * **Stack:** Next.js, Convex, Python, OpenAI, Proxycurl
 
 ---
 
 ### 🧠 Tech Stack
 * **Languages:** TypeScript, JavaScript, Python, Solidity
 * **Frontend:** React, Next.js (App Router), Tailwind CSS
-* **Backend & Infra:** Convex, Prisma, Inngest, Modal (GPU Inference), Google Cloud Storage, AWS.
-* **AI Ecosystem:** LangChain, LangSmith, Gemini, OpenAI, Groq, custom RAG pipelines
+* **Backend & Infra:** Convex, Prisma, Inngest, BullMQ, Redis, Modal (GPU), AWS, GCS
+* **AI Ecosystem:** LangChain, LangSmith, Gemini, OpenAI, Groq, Custom RAG pipelines
 
 ---
 
