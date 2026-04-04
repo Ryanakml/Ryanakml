@@ -16,6 +16,9 @@ I build end-to-end applications with a strict focus on system reliability. Wheth
 ### 🚀 Production-Ready Systems
 I build end-to-end AI systems that are deployed, scalable, and revenue-ready.
 
+* **[RawDog](https://raw-dog-six.vercel.app/)** | *Brutal one-task productivity app with AI-assisted prioritization*  
+  * **Built:** Clerk auth + webhook user sync, Convex-backed task engine, Pro persona parser, focus-first Tunnel mode, and free/pro plan gating.  
+  * **Stack:** Next.js 16, React 19, Convex, Clerk, Groq (AI SDK), Tailwind CSS 4
 * **[WA Chat](https://chat-fuse-dashboard.vercel.app/)** | *Production-grade WhatsApp support platform for AI-assisted conversations*
   * **Built:** Webhook ingestion, async job processing, AI routing, escalation workflows, and observability.
   * **Stack:** Next.js, Express, BullMQ, Redis, Supabase, LangChain, OpenAI, Gemini, OpenTelemetry, Grafana
