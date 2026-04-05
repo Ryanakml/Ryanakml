@@ -16,24 +16,30 @@ I build end-to-end applications with a strict focus on system reliability. Wheth
 ### 🚀 Production-Ready Systems
 I build end-to-end AI systems that are deployed, scalable, and revenue-ready.
 
+* **[Streak](https://streak-teal.vercel.app/)** | *Brutal AI habit tracker built for consistency and accountability*  
+  * **Built:** Onboarding-first habit setup, Clerk + Convex auth flow, real-time habit/check-in/chat state, AI coach messaging with Groq-powered intent parsing, proactive reminder and weekly review pipelines, and free/pro tier enforcement.  
+  * **Stack:** Next.js 16, React 19, Convex, Clerk, Groq, Tailwind CSS 4, Shadcn UI, Web Push
 * **[RawDog](https://raw-dog-six.vercel.app/)** | *Brutal one-task productivity app with AI-assisted prioritization*  
   * **Built:** Clerk auth + webhook user sync, Convex-backed task engine, Pro persona parser, focus-first Tunnel mode, and free/pro plan gating.  
-  * **Stack:** Next.js 16, React 19, Convex, Clerk, Groq (AI SDK), Tailwind CSS 4
-* **[WA Chat](https://chat-fuse-dashboard.vercel.app/)** | *Production-grade WhatsApp support platform for AI-assisted conversations*
-  * **Built:** Webhook ingestion, async job processing, AI routing, escalation workflows, and observability.
-  * **Stack:** Next.js, Express, BullMQ, Redis, Supabase, LangChain, OpenAI, Gemini, OpenTelemetry, Grafana
-* **[ClipperAI](https://clipperai.tech/)** | *Automated clip generation engine*
-  * **Built:** Multi-stage video processing, GPU-accelerated inference, and long-running background workflows.
-  * **Stack:** Gemini 1.5 Flash, FFmpeg, Modal GPU, Inngest, Next.js, Prisma
-* **[Neutrons AI](https://convs-web.vercel.app/conversations)** | *Custom node-based automation*
-  * **Built:** Visual workflow builder, real-time node execution, and multi-LLM routing logic.
-  * **Stack:** Next.js, Inngest, Gemini & Groq APIs, Convex
+  * **Stack:** Next.js 16, React 19, Convex, Clerk, Groq (AI SDK), Tailwind CSS 4.
 * **[Chattiphy](https://chattiphy.nextstackhq.app/)** | *Production support system with sub-second latency*
   * **Built:** Real-time AI voice/text interaction, low-latency state management, and multi-channel support.
-  * **Stack:** Groq LLM, Convex, Vapi (Voice), Next.js
+  * **Stack:** Groq LLM, Convex, Vapi (Voice), Next.js.
+* **[WA Chat](https://chat-fuse-dashboard.vercel.app/)** | *Production-grade WhatsApp support platform for AI-assisted conversations*
+  * **Built:** Webhook ingestion, async job processing, AI routing, escalation workflows, and observability.
+  * **Stack:** Next.js, Express, BullMQ, Redis, Supabase, LangChain, OpenAI, Gemini, OpenTelemetry, Grafana.
+* **[Voxify](https://www.nylo.me/)** | *AI-powered voice synthesis and management platform*  
+  * **Built:** Multi-voice TTS, real-time audio API, organization-based voice management, and seamless dashboard UI.  
+  * **Stack:** Next.js, Prisma, Python, TRPC, Shadcn UI.
+* **[ClipperAI](https://clipperai.tech/)** | *Automated clip generation engine*
+  * **Built:** Multi-stage video processing, GPU-accelerated inference, and long-running background workflows.
+  * **Stack:** Gemini 1.5 Flash, FFmpeg, Modal GPU, Inngest, Next.js, Prisma.
+* **[Neutrons AI](https://convs-web.vercel.app/conversations)** | *Custom node-based automation*
+  * **Built:** Visual workflow builder, real-time node execution, and multi-LLM routing logic.
+  * **Stack:** Next.js, Inngest, Gemini & Groq APIs, Convex.
 * **[Nylo](https://www.nylo.me/)** | *Automated B2B job change tracking & alert engine*
   * **Built:** Large-scale LinkedIn data scraping, automated lead enrichment, and targeted alert delivery.
-  * **Stack:** Next.js, Convex, Python, OpenAI, Proxycurl
+  * **Stack:** Next.js, Convex, Python, OpenAI, Proxycurl.
 
 ---
 
