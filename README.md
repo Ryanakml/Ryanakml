@@ -1,6 +1,6 @@
 # Hi, I'm Ryan 👋
 
-**AI Orchestration & Fullstack Engineer** | Architecting scalable systems & tracing bugs to the root.
+**AI Orchestration & Automation Engineer** | Architecting scalable systems & tracing bugs to the root.
 
 I build end-to-end applications with a strict focus on system reliability. Whether I'm optimizing AI orchestration layers, tracing complex runtime bugs in production, or architecting custom automation engines, my priorities are **correctness, performance, and clarity.**
 
