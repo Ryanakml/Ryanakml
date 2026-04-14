@@ -6,10 +6,12 @@ I build end-to-end applications with a strict focus on system reliability. Wheth
 
 ---
 
+<!--
 ### 🛠 Core Focus & OSS Contributions
 - **Root Cause Analysis:** I prioritize understanding system behavior over patching symptoms, tracing production bugs to their origin and refactoring for long-term stability.
 - **Core Optimization:** Identified and fixed core runtime injection bugs in **LangChain**, improving execution performance and stability.
 - **Open Source:** Active contributor to **OpenHands** (67k⭐), solving complex integration and environment issues in production-level codebases.
+-->
 
 ---
 
