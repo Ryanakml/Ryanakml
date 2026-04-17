@@ -65,8 +65,12 @@ I build end-to-end AI systems that are deployed, scalable, and revenue-ready.
 ### 📫 Get In Touch
 I’m currently open to **high-impact freelance projects**, **OSS collaboration**, and **production-level bug fixing.**
 
+
+<!--
 - **Upwork:** [Ryan Akmal](https://www.upwork.com/freelancers/~0190d89421d495254e)
 - **LinkedIn:** [Ryan Akmal](https://www.linkedin.com/in/ryan-akmal-943a2a1a6/)
+-->
+
 - **Email:** [brian.sbg12@gmail.com](mailto:brian.sbg12@gmail.com)
 
 > *"I build systems that work—and I make them work faster."*
