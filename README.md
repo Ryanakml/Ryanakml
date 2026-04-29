@@ -24,7 +24,7 @@ I build end-to-end AI systems that are deployed, scalable, and revenue-ready.
 * **[Chattiphy](https://chattiphy.nextstackhq.app/)** | *Production support system with sub-second latency*
   * **Built:** Real-time AI voice/text interaction, low-latency state management, and multi-channel support.
   * **Stack:** Groq LLM, Convex, Vapi (Voice), Next.js.
-* **[Wabrix](wabrix-web-2.vercel.app/)** | *Production-grade WhatsApp support platform for AI-assisted conversations*
+* **[Wabrix](https://wabrix-web-2.vercel.app/)** | *Production-grade WhatsApp support platform for AI-assisted conversations*
   * **Built:** Webhook ingestion, async job processing, AI routing, escalation workflows, and observability.
   * **Stack:** Next.js, Express, BullMQ, Redis, Supabase, LangChain, OpenAI, Gemini, OpenTelemetry, Grafana.
 * **[Voxify](https://voxify-peach.vercel.app/)** | *AI-powered voice synthesis and management platform*  
