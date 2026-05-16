@@ -4,7 +4,6 @@
 
 I build end-to-end applications with a strict focus on system reliability. Whether I'm optimizing AI orchestration layers, tracing complex runtime bugs in production, or architecting custom automation engines, my priorities are **correctness, performance, and clarity.**
 
----
 
 <!--
 ### 🛠 Core Focus & OSS Contributions
@@ -13,7 +12,6 @@ I build end-to-end applications with a strict focus on system reliability. Wheth
 - **Open Source:** Active contributor to **OpenHands** (67k⭐), solving complex integration and environment issues in production-level codebases.
 -->
 
----
 
 ### 🚀 Production-Ready Systems
 I build end-to-end AI systems that are deployed, scalable, and revenue-ready.
