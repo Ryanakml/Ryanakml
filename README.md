@@ -206,7 +206,7 @@ Architecture comes before implementation. Validation follows the same path the s
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Ryanakml&amp;theme=algolia&amp;no-frame=true&amp;no-bg=true&amp;column=7&amp;margin-w=8&amp;margin-h=8" alt="GitHub Trophies"/>
+  <img src="https://github-trophies.vercel.app/?username=Ryanakml&amp;theme=algolia&amp;no-frame=true&amp;no-bg=true&amp;column=7&amp;margin-w=8&amp;margin-h=8" alt="GitHub Trophies"/>
 </p>
 
 <br/>
