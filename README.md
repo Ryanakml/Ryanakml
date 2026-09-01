@@ -215,6 +215,3 @@ I'm currently open to high-impact freelance projects, OSS collaboration, and pro
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F2937,100:0D1117&height=100&section=footer" width="100%"/>
 
 </div>
-EOF
-
-echo "done"
