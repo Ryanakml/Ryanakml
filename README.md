@@ -1,34 +1,80 @@
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=220&section=header&text=Ryan&fontSize=48&fontColor=f0f6fc&fontAlignY=38&desc=AI%20Orchestration%20and%20Automation%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
-
-<br/>
-
 <img
-  src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=3000&amp;pause=1000&amp;color=58A6FF&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=720&amp;lines=Architecting+scalable+AI+systems;Tracing+production+bugs+to+their+root+cause;Building+custom+automation+engines;Correctness+%E2%86%92+Performance+%E2%86%92+Clarity"
+  src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;weight=500&amp;size=17&amp;duration=3000&amp;pause=1000&amp;color=58A6FF&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Architecting+scalable+AI+systems;Tracing+production+bugs+to+their+root+cause;Building+custom+automation+engines;Correctness+%E2%86%92+Performance+%E2%86%92+Clarity"
   alt="Typing SVG"
 />
 
 <br/>
 
-[![Email](https://img.shields.io/badge/EMAIL-brian.sbg12%40gmail.com-1F6FEB?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brian.sbg12@gmail.com)
-[![GitHub](https://img.shields.io/badge/GITHUB-Ryanakml-161B22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ryanakml)
-![Availability](https://img.shields.io/badge/STATUS-AVAILABLE-238636?style=for-the-badge)
+<a href="mailto:brian.sbg12@gmail.com"><img src="https://img.shields.io/badge/-brian.sbg12@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=58A6FF" /></a>
+<a href="https://github.com/Ryanakml"><img src="https://img.shields.io/badge/-@Ryanakml-0d1117?style=flat-square&logo=github&logoColor=58A6FF" /></a>
+<img src="https://img.shields.io/badge/status-available_for_work-0d1117?style=flat-square&logo=checkmarx&logoColor=3FB950&labelColor=0d1117" />
+
+<br/><br/>
+
+<i>End-to-end AI &amp; automation systems, built with a strict focus on reliability —<br/>
+architect first, trace every failure to its root, validate the real execution path before shipping.</i>
 
 </div>
 
 <br/>
 
-I build end-to-end AI and automation systems with a strict focus on reliability: define the architecture, trace failures to their source, and validate the real execution path before shipping.
+<table align="center">
+<tr>
+<td align="center" width="25%">
+<sub>PRIMARY FOCUS</sub><br/>
+<b>AI Orchestration<br/>&amp; Automation</b>
+</td>
+<td align="center" width="25%">
+<sub>BUILD SCOPE</sub><br/>
+<b>Application to<br/>Infrastructure</b>
+</td>
+<td align="center" width="25%">
+<sub>ENGINEERING STYLE</sub><br/>
+<b>Root-Cause<br/>Driven</b>
+</td>
+<td align="center" width="25%">
+<sub>STATUS</sub><br/>
+<b>Open-Source<br/>&amp; Freelance</b>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+### Stack
+
+<img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,django,tailwind,nodejs,express,prisma,postgres,redis,docker,aws,gcp&theme=dark&perline=8" />
+
+<sub>AI / orchestration — Claude · LangChain · OpenAI · Gemini · Groq · RAG pipelines · Agent tool-calling</sub>
+
+</div>
+
+<br/>
+
+---
+
+## Currently Building
 
 <table>
 <tr>
-<td width="25%" valign="top"><sub>PRIMARY FOCUS</sub><br/><strong>AI orchestration<br/>&amp; automation</strong></td>
-<td width="25%" valign="top"><sub>BUILD SCOPE</sub><br/><strong>Application to<br/>infrastructure</strong></td>
-<td width="25%" valign="top"><sub>ENGINEERING STYLE</sub><br/><strong>Root-cause<br/>driven</strong></td>
-<td width="25%" valign="top"><sub>STATUS</sub><br/><strong>Open-source<br/>&amp; freelance</strong></td>
+<td width="50%" valign="top">
+<h3>FlowDesk</h3>
+<p><sub>SAAS / WHATSAPP BUSINESS AUTOMATION</sub></p>
+<p>An enterprise-grade WhatsApp Business automation platform: multi-service architecture, queue-driven message processing, and a Dockerized deployment pipeline built for real operational load — not a demo.</p>
+<p><code>Node.js</code> <code>TypeScript</code> <code>Express</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Redis</code> <code>Docker</code></p>
+</td>
+<td width="50%" valign="top">
+<h3>ThinkIT</h3>
+<p><sub>AI / RAG DOCUMENT WORKSPACE</sub></p>
+<p>A retrieval-augmented AI workspace for documents — ingestion, chunking, vector search, and grounded Q&amp;A, backed by an async processing layer for large uploads.</p>
+<p><code>Django</code> <code>DRF</code> <code>Next.js</code> <code>PostgreSQL</code> <code>pgvector</code> <code>Celery</code> <code>Redis</code> <code>Anthropic SDK</code></p>
+</td>
 </tr>
 </table>
 
@@ -75,24 +121,24 @@ Public work across agent and orchestration frameworks, centered on runtime behav
 <table>
 <tr>
 <td width="50%" valign="top">
+<h3><a href="https://wabrix-ai.vercel.app/">Wabrix ↗</a></h3>
+<p><sub>AI / WHATSAPP AUTOMATION</sub></p>
+<p>A WhatsApp automation platform with webhook ingestion, asynchronous processing, AI routing, escalation workflows, observability, and multi-tenant infrastructure.</p>
+<p><code>Next.js</code> <code>Express</code> <code>BullMQ</code> <code>Redis</code> <code>Supabase</code> <code>LangChain</code> <code>OpenTelemetry</code></p>
+</td>
+<td width="50%" valign="top">
 <h3><a href="https://www.nylo.me/">Streak ↗</a></h3>
 <p><sub>AI / HABIT TRACKING</sub></p>
 <p>A brutalist AI habit tracker with real-time coaching, intent parsing, proactive reminders, weekly reviews, authentication, and free/pro enforcement.</p>
 <p><code>Next.js</code> <code>React</code> <code>Convex</code> <code>Clerk</code> <code>Groq</code> <code>Tailwind</code></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h3><a href="https://chattiphy.nextstackhq.app/">Chattiphy ↗</a></h3>
 <p><sub>AI / VOICE &amp; TEXT SUPPORT</sub></p>
 <p>A real-time voice and text support system designed around low-latency AI interactions and shared conversational state across channels.</p>
 <p><code>Next.js</code> <code>Groq</code> <code>Convex</code> <code>Vapi</code></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://wabrix-ai.vercel.app/">Wabrix ↗</a></h3>
-<p><sub>AI / WHATSAPP AUTOMATION</sub></p>
-<p>A WhatsApp automation platform with webhook ingestion, asynchronous processing, AI routing, escalation workflows, observability, and multi-tenant infrastructure.</p>
-<p><code>Next.js</code> <code>Express</code> <code>BullMQ</code> <code>Redis</code> <code>Supabase</code> <code>LangChain</code> <code>OpenTelemetry</code></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://voxify-peach.vercel.app/">Voxify ↗</a></h3>
@@ -123,61 +169,7 @@ $ validate    tests → logs → runtime state → recovery
 $ ship        deploy → observe → iterate
 ```
 
-Architecture comes before implementation. Validation follows the same path the system will run in production—not a simplified substitute.
-
-<br/>
-
-## Technical Toolkit
-
-<div align="center">
-
-<sub>LANGUAGES</sub>
-
-![TypeScript](https://img.shields.io/badge/TypeScript-1E293B?style=flat-square&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-1E293B?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Python](https://img.shields.io/badge/Python-1E293B?style=flat-square&logo=python&logoColor=4B8BBE)
-
-<br/>
-
-<sub>APPLICATION &amp; DATA</sub>
-
-![React](https://img.shields.io/badge/React-1E293B?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-1E293B?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1E293B?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
-![Node.js](https://img.shields.io/badge/Node.js-1E293B?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
-![Express](https://img.shields.io/badge/Express-1E293B?style=flat-square&logo=express&logoColor=FFFFFF)
-![Hono](https://img.shields.io/badge/Hono-1E293B?style=flat-square&logo=hono&logoColor=E36002)
-![Convex](https://img.shields.io/badge/Convex-1E293B?style=flat-square&logo=convex&logoColor=F3B01C)
-![Prisma](https://img.shields.io/badge/Prisma-1E293B?style=flat-square&logo=prisma&logoColor=8B9CF7)
-![Supabase](https://img.shields.io/badge/Supabase-1E293B?style=flat-square&logo=supabase&logoColor=3ECF8E)
-
-<br/>
-
-<sub>AI &amp; ORCHESTRATION</sub>
-
-![LangChain](https://img.shields.io/badge/LangChain-1E293B?style=flat-square&logo=langchain&logoColor=58A6FF)
-![OpenAI](https://img.shields.io/badge/OpenAI-1E293B?style=flat-square&logo=openai&logoColor=FFFFFF)
-![Gemini](https://img.shields.io/badge/Gemini-1E293B?style=flat-square&logo=googlegemini&logoColor=8B9CF7)
-![Groq](https://img.shields.io/badge/Groq-1E293B?style=flat-square&logo=groq&logoColor=F55036)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-1E293B?style=flat-square&logoColor=58A6FF)
-![Agents](https://img.shields.io/badge/Agent_Orchestration-1E293B?style=flat-square&logoColor=8B9CF7)
-
-<br/>
-
-<sub>ASYNC, INFRASTRUCTURE &amp; DELIVERY</sub>
-
-![Redis](https://img.shields.io/badge/Redis-1E293B?style=flat-square&logo=redis&logoColor=FF4438)
-![BullMQ](https://img.shields.io/badge/BullMQ-1E293B?style=flat-square&logoColor=F43F5E)
-![Inngest](https://img.shields.io/badge/Inngest-1E293B?style=flat-square&logo=inngest&logoColor=8B9CF7)
-![Docker](https://img.shields.io/badge/Docker-1E293B?style=flat-square&logo=docker&logoColor=2496ED)
-![Modal](https://img.shields.io/badge/Modal_GPU-1E293B?style=flat-square&logoColor=58A6FF)
-![AWS](https://img.shields.io/badge/AWS-1E293B?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
-![GCP](https://img.shields.io/badge/GCP-1E293B?style=flat-square&logo=googlecloud&logoColor=4285F4)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-1E293B?style=flat-square&logo=opentelemetry&logoColor=8B9CF7)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1E293B?style=flat-square&logo=githubactions&logoColor=58A6FF)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-1E293B?style=flat-square&logoColor=3FB950)
-
-</div>
+Architecture comes before implementation. Validation follows the same path the system will run in production — not a simplified substitute.
 
 <br/>
 
@@ -213,6 +205,18 @@ Architecture comes before implementation. Validation follows the same path the s
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Ryanakml&amp;theme=github-dark-blue&amp;hide_border=false&amp;border=30363D&amp;background=0D1117&amp;ring=58A6FF&amp;fire=3FB950&amp;currStreakLabel=58A6FF" alt="GitHub Streak"/>
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Ryanakml&amp;theme=algolia&amp;no-frame=true&amp;no-bg=true&amp;column=7&amp;margin-w=8&amp;margin-h=8" alt="GitHub Trophies"/>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ryanakml/Ryanakml/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
+</p>
+
+<sub align="center">Snake animation generated via <a href="https://github.com/Platane/snk">Platane/snk</a> — requires a small GitHub Action added to this repo to populate the SVG.</sub>
+
 <br/>
 <br/>
 
@@ -220,12 +224,13 @@ Architecture comes before implementation. Validation follows the same path the s
 
 <div align="center">
 
-**Let's talk.**<br/>
-Open to new opportunities, OSS collaboration, and high-impact freelance projects.<br/>
-If you're working on AI infrastructure, automation, or a hard production problem, reach out.
+### Let's talk
 
-[![Gmail](https://img.shields.io/badge/-brian.sbg12%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:brian.sbg12@gmail.com)
-[![GitHub](https://img.shields.io/badge/-@Ryanakml-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ryanakml)
+Open to new opportunities, OSS collaboration, and high-impact freelance projects.<br/>
+If you're working on AI infrastructure, automation, or a hard production problem — reach out.
+
+<a href="mailto:brian.sbg12@gmail.com"><img src="https://img.shields.io/badge/-brian.sbg12@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=58A6FF" /></a>
+<a href="https://github.com/Ryanakml"><img src="https://img.shields.io/badge/-@Ryanakml-0d1117?style=flat-square&logo=github&logoColor=58A6FF" /></a>
 
 <!--
 [Upwork](https://www.upwork.com/freelancers/~0190d89421d495254e)
@@ -234,16 +239,8 @@ If you're working on AI infrastructure, automation, or a hard production problem
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1F6FEB,100:0D1117&amp;height=100&amp;section=footer" width="100%" alt="Profile footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0d1117,50:1f6feb,100:0d1117&amp;height=120&amp;section=footer" width="100%" alt="Profile footer"/>
 
-<img
-  src="https://waveify.up.railway.app/api/wave/gradient?color=%2358a6ff&amplitude=12&frequency=1"
-  width="100%"
-  alt=""
-/>
-
-<sub>© 2026 Ryan. All rights reserved.</sub>
-
-
+<sub>© 2026 Ryan Akmal Pasya. All rights reserved.</sub>
 
 </div>
