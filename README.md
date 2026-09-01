@@ -20,6 +20,7 @@ architect first, trace every failure to its root, validate the real execution pa
 
 </div>
 
+
 <br/>
 
 <table align="center">
@@ -59,25 +60,6 @@ architect first, trace every failure to its root, validate the real execution pa
 
 ---
 
-## Currently Building
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3>FlowDesk</h3>
-<p><sub>SAAS / WHATSAPP BUSINESS AUTOMATION</sub></p>
-<p>An enterprise-grade WhatsApp Business automation platform: multi-service architecture, queue-driven message processing, and a Dockerized deployment pipeline built for real operational load — not a demo.</p>
-<p><code>Node.js</code> <code>TypeScript</code> <code>Express</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Redis</code> <code>Docker</code></p>
-</td>
-<td width="50%" valign="top">
-<h3>ThinkIT</h3>
-<p><sub>AI / RAG DOCUMENT WORKSPACE</sub></p>
-<p>A retrieval-augmented AI workspace for documents — ingestion, chunking, vector search, and grounded Q&amp;A, backed by an async processing layer for large uploads.</p>
-<p><code>Django</code> <code>DRF</code> <code>Next.js</code> <code>PostgreSQL</code> <code>pgvector</code> <code>Celery</code> <code>Redis</code> <code>Anthropic SDK</code></p>
-</td>
-</tr>
-</table>
-
 <br/>
 
 ## Open Source Engineering
@@ -113,6 +95,14 @@ Public work across agent and orchestration frameworks, centered on runtime behav
 </table>
 
 <p align="center"><code>reproduce → isolate → trace → fix → validate</code></p>
+
+<br/>
+
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ryanakml/Ryanakml/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
+</p>
 
 <br/>
 
@@ -159,20 +149,6 @@ Public work across agent and orchestration frameworks, centered on runtime behav
 
 <br/>
 
-## Engineering Workflow
-
-```text
-$ diagnose    reproduce → isolate → trace the failure
-$ architect   boundaries → data flow → failure modes
-$ build       application → AI → workers → infrastructure
-$ validate    tests → logs → runtime state → recovery
-$ ship        deploy → observe → iterate
-```
-
-Architecture comes before implementation. Validation follows the same path the system will run in production — not a simplified substitute.
-
-<br/>
-
 ## Engineering Focus
 
 | AI systems          | Backend systems   | Reliability          | Infrastructure  |
@@ -181,16 +157,6 @@ Architecture comes before implementation. Validation follows the same path the s
 | RAG pipelines       | Queues & workers  | Observability        | Cloud delivery  |
 | LLM routing         | Webhooks & APIs   | Failure recovery     | CI/CD           |
 | Tool execution      | State & data flow | Runtime tracing      | Background jobs |
-
-<br/>
-
-## Engineering Metrics
-
-<picture>
-  <img src="./github-metrics.png" width="100%" alt="Ryan's engineering metrics: contribution calendar, languages, notable open-source contributions, and recent activity"/>
-</picture>
-
-<sub>Generated daily with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</sub>
 
 <br/>
 
@@ -205,19 +171,12 @@ Architecture comes before implementation. Validation follows the same path the s
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Ryanakml&amp;theme=github-dark-blue&amp;hide_border=false&amp;border=30363D&amp;background=0D1117&amp;ring=58A6FF&amp;fire=3FB950&amp;currStreakLabel=58A6FF" alt="GitHub Streak"/>
 </p>
 
+## GitHub Achievements
+
 <p align="center">
   <img src="https://github-trophies.vercel.app/?username=Ryanakml&amp;theme=algolia&amp;no-frame=true&amp;no-bg=true&amp;column=7&amp;margin-w=8&amp;margin-h=8" alt="GitHub Trophies"/>
 </p>
 
-<br/>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ryanakml/Ryanakml/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
-</p>
-
-<sub align="center">Snake animation generated via <a href="https://github.com/Platane/snk">Platane/snk</a> — requires a small GitHub Action added to this repo to populate the SVG.</sub>
-
-<br/>
 <br/>
 
 ---
