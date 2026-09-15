@@ -63,6 +63,7 @@ architect first, trace every failure to its root, validate the real execution pa
 ![TypeScript](https://img.shields.io/badge/TypeScript-1E293B?style=flat-square&logo=typescript&logoColor=3178C6)
 ![JavaScript](https://img.shields.io/badge/JavaScript-1E293B?style=flat-square&logo=javascript&logoColor=F7DF1E)
 ![Python](https://img.shields.io/badge/Python-1E293B?style=flat-square&logo=python&logoColor=4B8BBE)
+![Go](https://img.shields.io/badge/Go-1E293B?style=flat-square&logo=go&logoColor=00ADD8)
 
 <br/>
 
@@ -77,6 +78,7 @@ architect first, trace every failure to its root, validate the real execution pa
 ![Convex](https://img.shields.io/badge/Convex-1E293B?style=flat-square&logo=convex&logoColor=F3B01C)
 ![Prisma](https://img.shields.io/badge/Prisma-1E293B?style=flat-square&logo=prisma&logoColor=8B9CF7)
 ![Supabase](https://img.shields.io/badge/Supabase-1E293B?style=flat-square&logo=supabase&logoColor=3ECF8E)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1E293B?style=flat-square&logo=postgresql&logoColor=4169E1)
 
 <br/>
 
@@ -94,6 +96,7 @@ architect first, trace every failure to its root, validate the real execution pa
 <sub>ASYNC, INFRASTRUCTURE &amp; DELIVERY</sub>
 
 ![Redis](https://img.shields.io/badge/Redis-1E293B?style=flat-square&logo=redis&logoColor=FF4438)
+![NATS](https://img.shields.io/badge/NATS-1E293B?style=flat-square&logo=natsdotio&logoColor=27AAE1)
 ![BullMQ](https://img.shields.io/badge/BullMQ-1E293B?style=flat-square&logoColor=F43F5E)
 ![Inngest](https://img.shields.io/badge/Inngest-1E293B?style=flat-square&logo=inngest&logoColor=8B9CF7)
 ![Docker](https://img.shields.io/badge/Docker-1E293B?style=flat-square&logo=docker&logoColor=2496ED)
@@ -167,6 +170,15 @@ Public work across agent and orchestration frameworks, centered on runtime behav
 <p><sub>AI / WHATSAPP AUTOMATION &nbsp;·&nbsp; <a href="https://github.com/Ryanakml/wabrix">SOURCE ↗</a></sub></p>
 <p>A WhatsApp automation platform with webhook ingestion, asynchronous processing, AI routing, escalation workflows, observability, and multi-tenant infrastructure for customer operations.</p>
 <p><code>Next.js</code> <code>Express</code> <code>BullMQ</code> <code>Redis</code> <code>Supabase</code> <code>LangChain</code> <code>OpenTelemetry</code></p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+<h3><a href="https://github.com/Ryanakml/Deadbolt">Deadbolt ↗</a></h3>
+<p><sub>DURABLE WORKFLOW INFRASTRUCTURE &nbsp;·&nbsp; <a href="https://github.com/Ryanakml/Deadbolt">SOURCE ↗</a></sub></p>
+<p>Durable workflow infrastructure for multi-step backend and AI workloads. A control plane persists execution state, coordinates recovery, and keeps each workflow step accountable, while self-hosted workers execute customer code on customer infrastructure.</p>
+<p><code>Go</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>NATS JetStream</code> <code>Docker</code></p>
 </td>
 </tr>
 
