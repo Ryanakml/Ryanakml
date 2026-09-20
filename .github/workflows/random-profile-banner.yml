@@ -2,6 +2,11 @@ name: Random Profile Banner
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/random-profile-banner.yml"
 
 permissions:
   contents: write
