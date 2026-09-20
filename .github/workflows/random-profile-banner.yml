@@ -1,0 +1,137 @@
+name: Random Profile Banner
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rotate-banner:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
+      - name: Pick random Catppuccin wallpaper
+        id: wallpaper
+        shell: bash
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import random
+          import urllib.parse
+          import urllib.request
+
+          api = "https://api.github.com/repos/orangci/walls-catppuccin-mocha/git/trees/master?recursive=1"
+          request = urllib.request.Request(
+              api,
+              headers={"User-Agent": "Ryanakml-profile-banner-action"},
+          )
+
+          with urllib.request.urlopen(request) as response:
+              tree = json.load(response)["tree"]
+
+          images = [
+              item["path"]
+              for item in tree
+              if item.get("type") == "blob"
+              and item["path"].lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
+          ]
+
+          if not images:
+              raise SystemExit("No wallpaper images found")
+
+          selected = random.choice(images)
+          encoded = urllib.parse.quote(selected, safe="/")
+          url = (
+              "https://raw.githubusercontent.com/"
+              "orangci/walls-catppuccin-mocha/master/"
+              + encoded
+          )
+
+          print(f"Selected wallpaper: {selected}")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              output.write(f"path={selected}\n")
+              output.write(f"url={url}\n")
+          PY
+
+      - name: Download wallpaper
+        env:
+          WALLPAPER_URL: ${{ steps.wallpaper.outputs.url }}
+        run: |
+          curl --fail --location "$WALLPAPER_URL" --output /tmp/profile-wallpaper
+
+      - name: Crop wallpaper into banner
+        run: |
+          mkdir -p assets
+
+          convert /tmp/profile-wallpaper \
+            -auto-orient \
+            -resize "1600x420^" \
+            -gravity center \
+            -crop 1600x420+0+0 \
+            +repage \
+            -strip \
+            -quality 90 \
+            assets/banner.jpg
+
+      - name: Switch README header to generated banner
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("README.md")
+          content = path.read_text()
+
+          replacement = """<!-- PROFILE_BANNER:START -->
+          <img src="./assets/banner.jpg" width="100%" alt="Random Catppuccin profile banner" />
+          <!-- PROFILE_BANNER:END -->"""
+
+          pattern = (
+              r"<!-- PROFILE_BANNER:START -->"
+              r".*?"
+              r"<!-- PROFILE_BANNER:END -->"
+          )
+
+          updated, count = re.subn(
+              pattern,
+              replacement,
+              content,
+              count=1,
+              flags=re.DOTALL,
+          )
+
+          if count != 1:
+              raise SystemExit("PROFILE_BANNER markers not found")
+
+          path.write_text(updated)
+          PY
+
+      - name: Commit generated banner
+        env:
+          SELECTED_WALLPAPER: ${{ steps.wallpaper.outputs.path }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md assets/banner.jpg
+
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+
+          git commit -m "chore: rotate profile banner"
+          git push
+
+          echo "Banner source: $SELECTED_WALLPAPER"
