@@ -1,6 +1,8 @@
 <div align="center">
 
+<!-- PROFILE_BANNER:START -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=220&section=header&text=Ryan&fontSize=48&fontColor=f0f6fc&fontAlignY=38&desc=AI%20Orchestration%20and%20Automation%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<!-- PROFILE_BANNER:END -->
 
 <img
   src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;weight=500&amp;size=17&amp;duration=3000&amp;pause=1000&amp;color=58A6FF&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Architecting+scalable+AI+systems;Tracing+production+bugs+to+their+root+cause;Building+custom+automation+engines;Correctness+%E2%86%92+Performance+%E2%86%92+Clarity"
