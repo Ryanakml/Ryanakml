@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- PROFILE_BANNER:START -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=220&section=header&text=Ryan&fontSize=48&fontColor=f0f6fc&fontAlignY=38&desc=AI%20Orchestration%20and%20Automation%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="./assets/banner.jpg" width="100%" alt="Random Catppuccin profile banner" />
 <!-- PROFILE_BANNER:END -->
 
 <img
