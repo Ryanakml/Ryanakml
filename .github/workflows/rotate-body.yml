@@ -1,0 +1,118 @@
+name: Rotate Body Asset
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+    inputs:
+      asset:
+        description: "Body asset number (e.g. 1, 2, ...) — leave empty for automatic rotation"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  rotate-body:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Number any new body assets and update README
+        env:
+          REQUESTED_ASSET: ${{ github.event.inputs.asset }}
+        run: |
+          python3 <<'PY'
+          import os
+          import random
+          import re
+          from pathlib import Path
+
+          body_dir = Path("assets/body")
+          valid_exts = {".jpg", ".jpeg", ".png", ".webp"}
+
+          numbered = {}
+          unnumbered = []
+
+          for p in sorted(body_dir.iterdir()):
+              if not p.is_file() or p.suffix.lower() not in valid_exts or p.name.startswith("."):
+                  continue
+              m = re.fullmatch(r"(\d+)\.jpeg", p.name)
+              if m:
+                  numbered[int(m.group(1))] = p
+              else:
+                  unnumbered.append(p)
+
+          next_num = max(numbered.keys(), default=0) + 1
+          for p in unnumbered:
+              target = body_dir / f"{next_num}.jpeg"
+              p.rename(target)
+              numbered[next_num] = target
+              next_num += 1
+
+          keys = sorted(numbered.keys())
+          if not keys:
+              raise SystemExit("No numbered assets found in assets/body/")
+
+          readme_path = Path("README.md")
+          content = readme_path.read_text()
+
+          current_match = re.search(
+              r"<!-- DAILY_ASSET:START -->.*?assets/body/(\d+)\.jpeg.*?<!-- DAILY_ASSET:END -->",
+              content,
+              flags=re.DOTALL,
+          )
+          current_num = int(current_match.group(1)) if current_match else None
+
+          requested = os.environ.get("REQUESTED_ASSET", "").strip()
+          requested = re.sub(r"\.jpe?g$", "", requested, flags=re.IGNORECASE)
+
+          if requested:
+              chosen = int(requested)
+              if chosen not in numbered:
+                  raise SystemExit(f"Asset {chosen}.jpeg not found in assets/body/ {keys}")
+          else:
+              candidates = [n for n in keys if n != current_num] or keys
+              chosen = random.choice(candidates)
+
+          print(f"Selected body asset: assets/body/{chosen}.jpeg")
+
+          replacement = (
+              "<!-- DAILY_ASSET:START -->\n"
+              '<p align="center">\n'
+              f'  <img src="assets/body/{chosen}.jpeg" width="600" alt="daily mood" />\n'
+              "</p>\n"
+              "<!-- DAILY_ASSET:END -->"
+          )
+
+          updated, count = re.subn(
+              r"<!-- DAILY_ASSET:START -->.*?<!-- DAILY_ASSET:END -->",
+              replacement,
+              content,
+              count=1,
+              flags=re.DOTALL,
+          )
+
+          if count != 1:
+              raise SystemExit("DAILY_ASSET markers not found in README.md")
+
+          readme_path.write_text(updated)
+          PY
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md assets/body/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: rotate body asset"
+          git push
