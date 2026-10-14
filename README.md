@@ -55,16 +55,20 @@ mostly `TypeScript` · `React` · `Node` · `Python` · `Go`.
 some side quests got a little out of hand:
 
 **01 / [deadbolt ↗](https://github.com/Ryanakml/Deadbolt)**  
-designing durable workflows and worker recovery. still early; turns out `retry()` isn't a recovery strategy.
+designing durable workflows and worker recovery. still early; turns out `retry()` isn't a recovery strategy.  
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Distributed Systems](https://img.shields.io/badge/Distributed_Systems-6366F1)
 
 **02 / [flowdesk ↗](https://github.com/Ryanakml/FlowDesk)**  
-laying the foundations for WhatsApp automation: workers, queues, observability. apparently "just send a message" needs a whole architecture.
+laying the foundations for WhatsApp automation: workers, queues, observability. apparently "just send a message" needs a whole architecture.  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white) ![Queues & Workers](https://img.shields.io/badge/Queues_%26_Workers-F97316) ![Observability](https://img.shields.io/badge/Observability-10B981)
 
 **03 / [wabrix ↗](https://github.com/Ryanakml/wabrix)**  
-an AI-assisted WhatsApp inbox with grounded replies and human handoff. sometimes the best bot feature is knowing when to stop talking.
+an AI-assisted WhatsApp inbox with grounded replies and human handoff. sometimes the best bot feature is knowing when to stop talking.  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![Convex](https://img.shields.io/badge/Convex-EE342F?logo=convex&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?logo=cloudflareworkers&logoColor=white)
 
 **04 / [nylo.me ↗](https://github.com/Ryanakml/nylo.me)**  
-my corner of the internet. gave a portfolio more motion than saying "hi" probably required.
+my corner of the internet. gave a portfolio more motion than saying "hi" probably required.  
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-000000?logo=threedotjs&logoColor=white)
 
 sometimes i wander into other people's codebases too — [merged PRs ↗](https://github.com/search?q=author%3ARyanakml+is%3Apr+is%3Amerged+-user%3ARyanakml&type=pullrequests).
 
