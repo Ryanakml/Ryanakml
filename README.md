@@ -6,7 +6,7 @@
 
 <!-- HEADER_ASSET:START -->
 <p align="center">
-  <img src="assets/header/2.jpeg" width="600" alt="me shipping to prod on a MacBook" />
+  <img src="assets/header/1.jpeg" width="600" alt="me shipping to prod on a MacBook" />
   <br />
   <sub><i>fig. 01 — live footage of me shipping to prod on a Monday ☕</i></sub>
 </p>
@@ -69,17 +69,6 @@ my corner of the internet. gave a portfolio more motion than saying "hi" probabl
 sometimes i wander into other people's codebases too — [merged PRs ↗](https://github.com/search?q=author%3ARyanakml+is%3Apr+is%3Amerged+-user%3ARyanakml&type=pullrequests).
 
 ### how it usually goes
-
-```mermaid
-graph TD
-    A["simple idea"] --> B["quick prototype"]
-    B --> C["edge cases"]
-    C --> D["refactor"]
-    D --> C
-    D --> E["ship it (probably)"]
-```
-
-the part they don't show in the demo:
 
 > the first version works. then someone clicks a button i forgot existed.
 
