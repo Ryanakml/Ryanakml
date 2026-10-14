@@ -115,4 +115,5 @@ jobs:
           fi
 
           git commit -m "chore: rotate body asset"
+          git pull --rebase origin main
           git push

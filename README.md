@@ -5,7 +5,7 @@
 
 <!-- HEADER_ASSET:START -->
 <p align="center">
-  <img src="assets/header/1.jpeg" width="600" alt="me shipping to prod on a MacBook" />
+  <img src="assets/header/3.jpeg" width="600" alt="me shipping to prod on a MacBook" />
   <br />
   <sub><i>live footage of me shipping to prod on a Monday ☕</i></sub>
 </p>
