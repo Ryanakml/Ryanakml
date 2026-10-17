@@ -152,7 +152,7 @@ sometimes i wander into other people's codebases too — [merged PRs ↗](https:
 
 ### find me
 
-github — you're already here. got a weird idea or an interesting bug? email and socials are up there <i>(below the profile pic)</i>.
+github — you're already here. got an interesting problem, role, or bug? Reach me directly at **[ryanakmalpasya@gmail.com](mailto:ryanakmalpasya@gmail.com)** or via **[LinkedIn](https://linkedin.com/in/ryanakmalpasya)**.
 
 ---
 
